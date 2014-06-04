@@ -919,6 +919,9 @@ margin-left: 2px !important;
 	line-height: normal;
 }
 
-#field_1_1 .gfield_label {
-	font-size: 1.4em;
+#field_1_1 {
+	padding-top: 0; 
+	.gfield_label {
+		font-size: 1.4em;
+	}
 }
