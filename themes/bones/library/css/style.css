@@ -795,6 +795,8 @@ view.
 
 .gform_wrapper .top_label input.medium { padding-right: 2px; font-size: 1.5em; line-height: normal; }
 
+#field_1_1 .gfield_label { font-size: 1.4em; }
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
