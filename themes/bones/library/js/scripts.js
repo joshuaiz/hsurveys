@@ -118,5 +118,5 @@ jQuery(document).ready(function($) {
 
 
 jQuery(document).ready(function($){
-  $('.gform_button, .gform_next_button, .gform_previous_button, .gform_next_button').addClass('blue-btn')
+  $('.gform_button, .gform_next_button, .gform_previous_button').addClass('blue-btn')
 });
