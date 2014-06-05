@@ -43,5 +43,5 @@ jQuery(document).ready(function(e) {
 });
 
 jQuery(document).ready(function(e) {
-    e(".gform_button, .gform_next_button").addClass("blue-btn");
+    e(".gform_button, .gform_next_button, .gform_previous_button, .gform_next_button").addClass("blue-btn");
 });
