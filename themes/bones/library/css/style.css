@@ -793,7 +793,7 @@ view.
 
 .gform_wrapper .top_label input.large, .gform_wrapper .top_label select.large, .gform_wrapper .top_label textarea.textarea { width: 99.2%; font-size: 1em; color: #08c; padding: .5em; }
 
-.gform_wrapper .top_label input.medium, .gform_wrapper .top_label input.small { padding-right: 2px; font-size: 1.5em !important; line-height: normal; color: #08c; }
+.gform_wrapper .top_label input.medium, .gform_wrapper .top_label input.small, .ginput_complex input[type=text] { padding-right: 2px; font-size: 1.5em !important; line-height: normal; color: #08c; }
 
 #field_1_1 { padding-top: 0; }
 #field_1_1 .gfield_label { font-size: 1.4em; }

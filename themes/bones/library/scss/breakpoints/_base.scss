@@ -913,7 +913,7 @@ margin-left: 2px !important;
 	padding: .5em;
 }
 
-.gform_wrapper .top_label input.medium, .gform_wrapper .top_label input.small {
+.gform_wrapper .top_label input.medium, .gform_wrapper .top_label input.small, .ginput_complex input[type=text] {
 	padding-right: 2px;
 	font-size: 1.5em !important;
 	line-height: normal;
