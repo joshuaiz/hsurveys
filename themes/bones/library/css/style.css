@@ -446,18 +446,18 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.blue-btn, .comment-reply-link, #submit { display: inline-block; position: relative; font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; text-decoration: none; color: white; font-size: 0.9em; font-size: 2em; line-height: 34px; font-weight: normal; padding: .8em 1.5em; border-radius: 4px; border: 0; cursor: pointer; -webkit-transition: background-color 0.14s ease-in-out; transition: background-color 0.14s ease-in-out; }
-.blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus { color: white; text-decoration: none; }
-.blue-btn:active, .comment-reply-link:active, #submit:active { top: 1px; }
+.blue-btn, .comment-reply-link, #submit, .gform_button, .gform_next_button, .gform_previous_button { display: inline-block; position: relative; font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; text-decoration: none; color: white; font-size: 0.9em; font-size: 2em; line-height: 34px; font-weight: normal; padding: .8em 1.5em; border-radius: 4px; border: 0; cursor: pointer; -webkit-transition: background-color 0.14s ease-in-out; transition: background-color 0.14s ease-in-out; }
+.blue-btn:hover, .comment-reply-link:hover, #submit:hover, .gform_button:hover, .gform_next_button:hover, .gform_previous_button:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus, .gform_button:focus, .gform_next_button:focus, .gform_previous_button:focus { color: white; text-decoration: none; }
+.blue-btn:active, .comment-reply-link:active, #submit:active, .gform_button:active, .gform_next_button:active, .gform_previous_button:active { top: 1px; }
 
 /*
 An example button.
 You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
-.blue-btn, .comment-reply-link, #submit { background-color: #2980b9; }
-.blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus { background-color: #2574a8; }
-.blue-btn:active, .comment-reply-link:active, #submit:active { background-color: #2472a4; }
+.blue-btn, .comment-reply-link, #submit, .gform_button, .gform_next_button, .gform_previous_button { background-color: #2980b9; }
+.blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus, .gform_button:hover, .gform_button:focus, .gform_next_button:hover, .gform_next_button:focus, .gform_previous_button:hover, .gform_previous_button:focus { background-color: #2574a8; }
+.blue-btn:active, .comment-reply-link:active, #submit:active, .gform_button:active, .gform_next_button:active, .gform_previous_button:active { background-color: #2472a4; }
 
 /******************************************************************
 Site Name:
