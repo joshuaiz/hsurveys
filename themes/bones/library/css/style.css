@@ -650,7 +650,7 @@ POSTS & CONTENT STYLES
 .byline { color: #9fa6b4; font-style: italic; margin: 0; }
 
 /* entry content */
-.entry-content { padding: 1.5em 1.5em 0; /*
+.entry-content { padding: 1.5em 1.5em; /*
 image alignment on a screen this size may be
 a bit difficult. It's set to start aligning
 and floating images at the next breakpoint,
