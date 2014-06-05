@@ -656,7 +656,7 @@ a bit difficult. It's set to start aligning
 and floating images at the next breakpoint,
 but it's up to you. Feel free to change it up.
 */ }
-.entry-content p { margin: 0 0 1.5em; }
+.entry-content p { margin: 0 0 1em; }
 .entry-content table { width: 100%; border: 1px solid #eaedf2; margin-bottom: 1.5em; }
 .entry-content table caption { margin: 0 0 7px; font-size: 0.75em; color: #9fa6b4; text-transform: uppercase; letter-spacing: 1px; }
 .entry-content tr { border-bottom: 1px solid #eaedf2; }
