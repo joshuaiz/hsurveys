@@ -564,8 +564,8 @@ LAYOUT & GRID STYLES
 /*********************
 LINK STYLES
 *********************/
-a, a:visited { color: #f01d4f; /* on hover */ /* on click */ /* mobile tap color */ }
-a:hover, a:focus, a:visited:hover, a:visited:focus { color: #d10e3c; }
+a, a:visited { color: #0088cc; /* on hover */ /* on click */ /* mobile tap color */ }
+a:hover, a:focus, a:visited:hover, a:visited:focus { color: #00699e; }
 a:link, a:visited:link { /*
 this highlights links on iPhones/iPads.
 so it basically works like the :hover selector
