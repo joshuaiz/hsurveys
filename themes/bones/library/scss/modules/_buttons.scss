@@ -72,3 +72,17 @@ and it will create a button dependant on those variables.
   } // end active
 
 } // end blue button
+
+#gform_submit_button_2, #gform_submit_button_3 {
+  @extend %btn;
+  background-color: $green;
+
+  &:hover,
+  &:focus {
+    background-color: darken($green, 4%);
+  } // end hover
+
+  &:active {
+    background-color: darken($green, 5%);
+  } // end active
+}
