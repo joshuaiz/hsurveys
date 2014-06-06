@@ -598,7 +598,7 @@ HEADER STYLES
 
 #logo { margin: 0.75em 0; }
 #logo a { color: white; }
-#logo img { width: 175px; margin-right: 14px; vertical-align: middle; }
+#logo img { width: 175px; height: 104px; margin-right: 14px; vertical-align: middle; }
 
 /*********************
 NAVIGATION STYLES
