@@ -596,7 +596,7 @@ HEADER STYLES
 *********************/
 .header { background-color: #323944; }
 
-#logo { margin: 0.75em 0; }
+#logo { margin: 0; }
 #logo a { color: white; }
 #logo img { width: 175px; height: 104px; margin-right: 14px; vertical-align: middle; }
 
@@ -788,7 +788,9 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
-.gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox], .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio], .gform_wrapper.gf_browser_chrome .gfield_checkbox li input, .gfield_radio li input[type=radio] { margin-top: 4px; margin-left: 3px !important; }
+.gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox], .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio], .gform_wrapper.gf_browser_chrome .gfield_checkbox li input, .gfield_radio li input[type=radio] { margin-top: 4px !important; margin-left: 3px !important; }
+
+.gecko .gfield_radio li input[type=radio] { margin-top: 6px !important; }
 
 .gform_wrapper .description, .gform_wrapper .gfield_description, .gform_wrapper .gsection_description, .gform_wrapper .instruction { font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
 

@@ -21,7 +21,7 @@ body {
 	line-height: 1.5;
 	color: $text-color;
 	background-color: $gray;
-  -webkit-font-smoothing: antialiased;
+  	-webkit-font-smoothing: antialiased;
 }
 
 /********************
@@ -157,7 +157,7 @@ HEADER STYLES
 }
 
 	#logo {
-		margin: 0.75em 0;
+		margin: 0;
 
 		a {
 			color: $white;
@@ -897,8 +897,12 @@ FOOTER STYLES
 
 
 .gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox], .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio], .gform_wrapper.gf_browser_chrome .gfield_checkbox li input, .gfield_radio li input[type=radio] {
-margin-top: 4px;
-margin-left: 3px !important;
+	margin-top: 4px !important;
+	margin-left: 3px !important;
+}
+
+.gecko .gfield_radio li input[type=radio] {
+	margin-top: 6px !important;
 }
 
 .gform_wrapper .description, .gform_wrapper .gfield_description, .gform_wrapper .gsection_description, .gform_wrapper .instruction {
